@@ -185,6 +185,6 @@ class Graphcls extends CustomPainter{
 
   @override
   bool shouldRepaint(covariant oldDelegate) {
-    return true;
+    return false;
   }
 }

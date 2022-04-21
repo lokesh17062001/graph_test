@@ -16,9 +16,6 @@ class Mygraph extends StatefulWidget {
 
 class _MygraphState extends State<Mygraph> {
   Map<String, dynamic>? myData;
-  var zoom=0.1,a=false,initx=0;
-  FocusNode fn = FocusNode();
-
   @override
   void initState() {
     readjs();

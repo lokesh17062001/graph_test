@@ -74,20 +74,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  graph:
+  graph_package:
     dependency: "direct main"
     description:
-      path: "C:\\Users\\LOKESH PADHARTHI\\Documents\\graph"
+      path: "C:/Users/LOKESH PADHARTHI/Documents/graph_package"
       relative: false
     source: path
     version: "0.0.1"
-  intl:
-    dependency: transitive
-    description:
-      name: intl
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.17.0"
   json_annotation:
     dependency: "direct main"
     description:

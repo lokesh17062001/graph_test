@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:graph/graph.dart';
+import 'package:graph_package/graph_package.dart';
 
 void main() => runApp(const MaterialApp(
     home: Mygraph(),
@@ -31,7 +31,8 @@ class _MygraphState extends State<Mygraph> {
       return Scaffold(
         body: CustomPaint(
           painter:Graphcls(myData!),
-          child: Container(color:Colors.black12,width: scrsize.width,height: scrsize.height),
+          // ignore: sized_box_for_whitespace
+          child: Container(width: scrsize.width,height: scrsize.height),
         ),
       );
     }
